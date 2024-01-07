@@ -1,0 +1,33 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "lib": ["dom", "dom.iterable", "esnext"],
+        "allowJs": true,
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "noFallthroughCasesInSwitch": true,
+        "module": "esnext",
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "isolatedModules": false,
+        "jsx": "react",
+        "baseUrl": "./",
+        "sourceMap": true,
+        "paths": {
+            "@bus/*": ["./src/bus/*"],
+            "@typings/*": ["./src/typings/*"],
+            "@pages/*": ["./src/pages/*"],
+            "@assets/*": ["./src/assets/*"],
+            "@routes/*": ["./src/routes/*"],
+            "@store/*": ["./src/store/*"],
+            "@helpers/*": ["./src/helpers/*"],
+            "@utils/*": ["./src/utils/*"],
+            "@components/*": ["./src/components/*"],
+            "@compositions/*": ["./src/compositions/*"],
+        }
+    },
+    "include": ["src", "declarations.d.ts"]
+}

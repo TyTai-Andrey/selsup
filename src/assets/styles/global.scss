@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Inter';
+  &::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+    transition: 0.3s all;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: #2b2b2b;
+  }
+  &::-webkit-scrollbar-track {
+    background: #e6e3ec;
+  }
+}
+
+body {
+}
